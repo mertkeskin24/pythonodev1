@@ -1,0 +1,7 @@
+ 
+liste1 =  [11,13,73,79,81,83,89,91]
+liste2 =  [14,18,24,76,82,92,94,98,84,74]
+liste3 = liste1 + liste2
+liste4 = [x*2 for x in liste3]
+for liste4tip in liste4:
+print (type(liste4tip))
